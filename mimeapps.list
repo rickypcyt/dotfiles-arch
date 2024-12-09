@@ -1,0 +1,11 @@
+[Added Associations]
+video/mp4=vlc-5.desktop;vlc-4.desktop;vlc-3.desktop;vlc-2.desktop;
+application/vnd.rar=org.kde.ark.desktop;
+application/json=nvim.desktop;
+inode/chardevice=userapp-kitty nvim-OW1BY2.desktop;code-oss.desktop;
+application/x-zerosize=code-oss.desktop;
+
+[Default Applications]
+video/mp4=vlc-5.desktop;
+inode/chardevice=userapp-kitty nvim-OW1BY2.desktop
+application/x-zerosize=code-oss.desktop

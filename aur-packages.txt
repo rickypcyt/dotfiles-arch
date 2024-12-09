@@ -1,0 +1,6 @@
+neovim-tree-lua-git
+whatsapp-for-linux
+whatsapp-for-linux-debug
+yay
+yay-debug
+zen-browser-avx2-bin

@@ -1,0 +1,18 @@
+optimus-manager --switch nvidia
+optimus-manager --switch intel
+
+Deberías activar la NVIDIA solo para tareas intensivas, como:
+
+    Juegos que requieran más potencia gráfica.
+    Renderizado 3D o edición de video.
+    Simulaciones científicas o aprendizaje automático.
+
+Para ejecutar aplicaciones con la GPU dedicada (NVIDIA), usa:
+
+prime-run <aplicación>
+
+alias ll='ls -lh'
+alias gs='git status'
+alias gd='git diff'
+alias gco='git checkout'
+

@@ -1,0 +1,20 @@
+colors:
+  # Color de fondo y texto predeterminado
+  background: "#1e1e2e"  # Un fondo oscuro (puedes cambiarlo a un tono más claro si lo prefieres)
+  foreground: "#a9b1d6"  # Un color claro para el texto (puedes ajustarlo según tus preferencias)
+
+  # Paleta de colores de la terminal
+  palette:
+    - "#1e1e2e"  # Fondo oscuro
+    - "#7aa2f7"  # Azul brillante (puedes poner diferentes tonos de azul aquí)
+    - "#e0af68"  # Naranja claro
+    - "#9ece6a"  # Verde claro
+    - "#f7768e"  # Rojo claro
+    - "#bb9af7"  # Púrpura
+    - "#7dcfff"  # Azul claro (para detalles)
+    - "#a9b1d6"  # Gris claro (para el texto)
+
+  # Colores para las divisiones
+  border:
+    active: "#7aa2f7"  # Azul para los bordes activos
+    inactive: "#3b4261"  # Gris para los bordes inactivos
