@@ -280,17 +280,17 @@ theme "tokyo"
 
 themes {
     tokyo {
-        fg 89 115 204      
-        bg 15 17 27        
-        black 34 40 58     
-        red 255 45 99      
+        fg 97 97 97      
+        bg 117 117 117        
+        black 0 0 0     
+        red 255 23 68      
         green 50 195 255   
-        yellow 255 182 85  
-        blue 0 121 255     
-        magenta 171 85 255 
-        cyan 0 204 255     
-        white 200 210 255  
-        orange 255 95 50  
+        yellow 255 255 0  
+        blue 41 121 255     
+        magenta 186 104 200 
+        cyan 24 255 255   
+        white 243 229 245  
+        orange 255 87 34  
     }
 }
  
@@ -302,7 +302,7 @@ default_mode "normal"
 // Choose the path to the default shell that zellij will use for opening new panes
 // Default: $SHELL
 // 
-// default_shell "fish"
+default_shell "zsh"
  
 // Choose the path to override cwd that zellij will use for opening new panes
 // 
@@ -372,7 +372,7 @@ default_mode "normal"
 // Examples:
 //
 // copy_command "xclip -selection clipboard" // x11
-// copy_command "wl-copy"                    // wayland
+ copy_command "wl-copy"                    // wayland
 // copy_command "pbcopy"                     // osx
 // 
 // copy_command "pbcopy"
@@ -389,7 +389,7 @@ default_mode "normal"
 // Enable automatic copying (and clearing) of selection when releasing mouse
 // Default: true
 // 
-// copy_on_select true
+copy_on_select true
  
 // Path to the default editor to use to edit pane scrollbuffer
 // Default: $EDITOR or $VISUAL

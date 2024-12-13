@@ -1,0 +1,7 @@
+/* Cambia el fondo a negro */
+.swayosd {
+    background-color: rgba(0, 0, 0, 1); /* Negro sólido */
+    color: white; /* Texto blanco para contraste */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    padding: 10px; /* Opcional: espacio interno */
+}
