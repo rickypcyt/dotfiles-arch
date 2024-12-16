@@ -280,17 +280,17 @@ theme "tokyo"
 
 themes {
     tokyo {
-        fg 89 115 204      
-        bg 15 17 27        
-        black 34 40 58     
-        red 255 45 99      
+        fg 97 97 97      
+        bg 117 117 117        
+        black 0 0 0     
+        red 255 23 68      
         green 50 195 255   
-        yellow 255 182 85  
-        blue 0 121 255     
-        magenta 171 85 255 
-        cyan 0 204 255     
-        white 200 210 255  
-        orange 255 95 50  
+        yellow 255 255 0  
+        blue 41 121 255     
+        magenta 186 104 200 
+        cyan 24 255 255   
+        white 243 229 245  
+        orange 255 87 34   
     }
 }
  
