@@ -1,0 +1,16 @@
+[Desktop Entry]
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Documents/Libros/C/The C Programming Language (Kernighan Ritchie).pdf
+Name1[$e]=The C Programming Language (Kernighan Ritchie).pdf
