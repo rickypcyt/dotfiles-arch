@@ -6,9 +6,9 @@
         "layer": "top",
         "position": "top",
         "mod": "dock",
-       "margin-left": 10,
-     "margin-right": 10,
-     "margin-top": 7,
+       "margin-left": 5,
+     "margin-right": 5,
+     "margin-top": 5,
      "margin-bottom": 0,
         "exclusive": true,
         "passthrough": false,
@@ -20,7 +20,7 @@
     
         "modules-left": ["custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
         "modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
-        "modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd"],
+        "modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/padd"],
     
     
     // sourced from modules based on config.ctl //
@@ -298,7 +298,6 @@
         "clock": {
             "format": "{:%I:%M %p}",
             "rotate": 0,
-           "on-click": "/usr/local/bin/ags -t ActivityCenter",
             "tooltip-format": "<tt>{calendar}</tt>",
             "calendar": {
                 "mode": "month",

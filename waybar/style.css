@@ -9,7 +9,7 @@
   font-family: "JetBrains Mono Nerd Font";
   font-size: 17px;
  color: #A1BDCE;
- margin: 2px 0px 0px 0px;
+ margin: 2px 2px 2px 2px;
 }
 
 window#waybar {
@@ -194,7 +194,7 @@ background: @bar-bg;
     font-family: "JetBrains Mono Nerd Font";
     background: rgba(23, 23, 23, 0.0);
     opacity: 1;
-    margin: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding-left: 10px;
     padding-right: 10px;
     border: none;

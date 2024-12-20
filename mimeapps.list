@@ -6,6 +6,7 @@ inode/chardevice=userapp-kitty nvim-OW1BY2.desktop;code-oss.desktop;
 application/x-zerosize=code-oss.desktop;
 application/pdf=org.gnome.Evince.desktop;microsoft-edge.desktop;zen-beta.desktop;firefox.desktop;
 application/x-shellscript=vim.desktop;nvim.desktop;
+application/x-desktop=heroic.desktop;
 
 [Default Applications]
 video/mp4=vlc-5.desktop;
