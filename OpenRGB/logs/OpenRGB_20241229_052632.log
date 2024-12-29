@@ -1,0 +1,79 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241229_052632
+====================================================================================================
+
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Start device detection               |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    Initializing HID interfaces: Success
+1020  |Info:    ------------------------------------------------------
+1020  |Info:    |             Detecting I2C interfaces               |
+1020  |Info:    ------------------------------------------------------
+1021  |Info:    Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 1043:18F1
+1021  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:18F1
+1021  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1F91 Subsystem: 1043:109F
+1022  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:15D8 Subsystem: 1043:18F1
+1022  |Info:    Registering I2C interface: /dev/i2c-ELAN1200:00 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:1F91 Subsystem: 1043:109F
+1022  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1022  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    ------------------------------------------------------
+1022  |Info:    |               Detecting I2C devices                |
+1022  |Info:    ------------------------------------------------------
+1963  |Info:    ------------------------------------------------------
+1963  |Info:    |               Detecting I2C PCI devices            |
+1963  |Info:    ------------------------------------------------------
+1966  |Info:    ------------------------------------------------------
+1966  |Info:    |               Detecting HID devices                |
+1966  |Info:    ------------------------------------------------------
+1991  |Info:    [Razer Deathadder Essential V2] Registering RGB controller
+1991  |Info:    ------------------------------------------------------
+1991  |Info:    |            Detecting libusb HID devices            |
+1991  |Info:    ------------------------------------------------------
+2035  |Info:    ------------------------------------------------------
+2035  |Info:    |              Detecting other devices               |
+2035  |Info:    ------------------------------------------------------
+2036  |Info:    [ASUS TUF Keyboard] Registering RGB controller
+2049  |Info:    ------------------------------------------------------
+2049  |Info:    |                Detection completed                 |
+2049  |Info:    ------------------------------------------------------
+2049  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+35662 |Info:    ------------------------------------------------------
+35662 |Info:    |               Start device detection               |
+35662 |Info:    ------------------------------------------------------
+35662 |Info:    Initializing HID interfaces: Success
+35675 |Info:    ------------------------------------------------------
+35675 |Info:    |             Detecting I2C interfaces               |
+35675 |Info:    ------------------------------------------------------
+35676 |Info:    Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 1043:18F1
+35676 |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:18F1
+35676 |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:1F91 Subsystem: 1043:109F
+35677 |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:15D8 Subsystem: 1043:18F1
+35677 |Info:    Registering I2C interface: /dev/i2c-ELAN1200:00 Device 0000:0000 Subsystem: 0000:0000
+35677 |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+35677 |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:1F91 Subsystem: 1043:109F
+35677 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+35678 |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+35678 |Info:    ------------------------------------------------------
+35678 |Info:    |               Detecting I2C devices                |
+35678 |Info:    ------------------------------------------------------
+36616 |Info:    ------------------------------------------------------
+36616 |Info:    |               Detecting I2C PCI devices            |
+36616 |Info:    ------------------------------------------------------
+36620 |Info:    ------------------------------------------------------
+36620 |Info:    |               Detecting HID devices                |
+36620 |Info:    ------------------------------------------------------
+36644 |Info:    [Razer Deathadder Essential V2] Registering RGB controller
+36644 |Info:    ------------------------------------------------------
+36644 |Info:    |            Detecting libusb HID devices            |
+36644 |Info:    ------------------------------------------------------
+36680 |Info:    ------------------------------------------------------
+36680 |Info:    |              Detecting other devices               |
+36680 |Info:    ------------------------------------------------------
+36680 |Info:    [ASUS TUF Keyboard] Registering RGB controller
+36682 |Info:    ------------------------------------------------------
+36682 |Info:    |                Detection completed                 |
+36682 |Info:    ------------------------------------------------------
+36682 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
