@@ -1,4 +1,5 @@
 [ExtractDialog]
+1600x900 screen: Window-Maximized=true
 1920x1080 screen: Window-Maximized=true
 DirHistory[$e]=$HOME/Downloads/
 

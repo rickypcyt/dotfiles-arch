@@ -19,6 +19,7 @@ application/x-extension-xhtml=zen-beta.desktop;
 application/x-extension-xht=zen-beta.desktop;
 text/plain=sublime_text.desktop;vim.desktop;nvim.desktop;
 application/x-msdownload=net.lutris.Lutris.desktop;
+application/vnd.microsoft.portable-executable=wine.desktop;
 
 [Default Applications]
 video/mp4=vlc-5.desktop;

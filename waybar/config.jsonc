@@ -1,23 +1,20 @@
 {
   "layer": "top",
   "position": "top",
-  // "height": 24, // Uncomment to set a fixed height
-  // Note: The layout may break if height is greater than 24
   "mode": "dock",
-  "reload_style_on_change": true,
+  "exclusive": true,
+  "passthrough": false,
   "gtk-layer-shell": true,
 
   // === Positions ===
 
   "modules-left": [
-    "custom/ws",            // window icon
     "custom/left1",
 
     "hyprland/workspaces",  // workspaces
     "custom/right1",
 
-    "custom/paddw",
-    "hyprland/window"       // window title
+    "custom/paddw"
   ],
 
   "modules-center": [
@@ -33,7 +30,6 @@
     "custom/leftin1",
 
     "custom/left5",
-    "idle_inhibitor",       // distro icon
     "custom/right2",
 
     "custom/rightin1",
@@ -274,8 +270,6 @@
     "return-type": "json",
     "format": "{}",
     "tooltip": true,
-    "on-click": "~/.config/waybar/scripts/wifi-menu.sh",
-    "on-click-right": "kitty --title '󰤨  Network Manager TUI' bash -c nmtui",
     "interval": 1,
     "min-length": 1,
     "max-length": 1

@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# Check if Waybar is running
-if pgrep waybar > /dev/null
+if pgrep -x "waybar" > /dev/null
 then
-    # Kill Waybar if it is running
-    pkill waybar
+    killall waybar
 else
-    # Start Waybar if it is not running
     waybar &
 fi

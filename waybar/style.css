@@ -43,7 +43,7 @@ tooltip label {
 
 #workspaces button {
   color: @module-fg;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: none;
   margin: 2px 0;
   padding: 0 2px;
