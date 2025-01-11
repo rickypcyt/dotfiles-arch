@@ -1,9 +1,10 @@
 {
-  "layer": "top",
+"layer": "top",
   "position": "top",
+  // "height": 24, // Uncomment to set a fixed height
+  // Note: The layout may break if height is greater than 24
   "mode": "dock",
-  "exclusive": true,
-  "passthrough": false,
+  "reload_style_on_change": true,
   "gtk-layer-shell": true,
 
   // === Positions ===
