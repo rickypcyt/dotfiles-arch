@@ -1,3 +1,9 @@
+vim.opt.clipboard = "unnamedplus"
+vim.api.nvim_set_keymap('v', '<C-S-c>', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-S-v>', '"+p', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-a>', 'ggVG', { noremap = true, silent = true })
+
+
 -- Opciones básicas
 vim.opt.number = true            -- Números de línea
 vim.opt.relativenumber = true    -- Números relativos (para moverte rápido)
@@ -46,6 +52,14 @@ require("lazy").setup({
             require("telescope").setup()
         end,
     },
+    -- Autocompletado de paréntesis, corchetes, comillas, etc.
+{
+    "jiangmiao/auto-pairs",
+    config = function()
+        -- Configuración opcional, puedes dejarla vacía si no necesitas ajustes adicionales
+    end,
+},
+
     -- Barra de estado moderna
     {
         "nvim-lualine/lualine.nvim",
