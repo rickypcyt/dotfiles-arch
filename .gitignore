@@ -1,57 +1,71 @@
-chromium
-Code - OSS
-ZapZap
-GitHub Desktop
-LabyMod
-LabyMod Launcher
-obsidian
-Todoist
-wasistlos
+# Aplicaciones y directorios específicos
+chromium/
+Code - OSS/
+ZapZap/
+GitHub Desktop/
+LabyMod/
+LabyMod Launcher/
+obsidian/
+Todoist/
+wasistlos/
+thorium/
+WebCord/
+vesktop/
+heroic/
+GIMP/
+inkscape/
+openrazer/
+discord/
+Kingsoft/
+microsoft-edge/
+unity3d/
+qBittorrent/
+suyu/
+blender/
+calcure/
+geany/
+obs-studio/
+VSCodium/
+toughcookies/
+sublime-text/
+github-copilot/
+rofi/
+slimbookbattery/
+zed/
+Thunar/
+!.config/spotify/Users/
+rog/
+TradingView/
+
+# Archivos de configuración específicos
 dconf/user
 xfce4/xfconf/xfce-perchannel-xml/thunar.xml
-dconf/user
-thorium
-WebCord
-vesktop
-heroic
-GIMP
-inkscape
-openrazer
-discord
-Kingsoft
-microsoft-edge
-dconf/user
 gtk-3.0/settings.ini
 org.keshavnrj.ubuntu/WhatSie.conf
-unity3d
-qBittorrent
-suyu
 btop/btop.log
-dconf/user
 menus/applications-merged/wine-Programs-Hades 2-Play Hades 2.menu
 menus/applications-merged/wine-Programs-Hades 2-Uninstall.menu
 qBittorrent/qBittorrent-data.conf
-blender
-calcure
-geany
-obs-studio
-VSCodium
-toughcookies
+
+# Directorios de configuración generales
+dconf/
+btop/
+gtk-3.0/
+
+spotify/Users/on72buxxtjvljfx9bwi3zg957-user/ad-state-storage.bnk
+TabNine
+Vlc
+spotify/
 dconf
+QtProject.conf
+easyeffects
+krita
+doom
+nvim
 btop
-gtk-3.0
-sublime-text
-github-copilot
-openrazer
-dconf
-rofi
-slimbookbattery
-zed
+NuGet
+nvim.bak
 Thunar
-spotify
-suyu
-spacefm
-rog
-TradingView
-btop/btop.log
-dconf/user
+smplayer
+VirtualBox
+winegui
