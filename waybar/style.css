@@ -1,7 +1,7 @@
 * {
   font-family: "JetBrainsMono Nerd Font";
   font-weight: bold;
-  font-size: 12px;
+  font-size: 10px;
   min-height: 0;
   padding: 0;
   border: none;
@@ -46,7 +46,8 @@ tooltip label {
   border-radius: 15px;
   box-shadow: none;
   margin: 2px 0;
-  padding: 0 2px;
+  padding-right: 2px;
+  padding-left: 2px;
   transition: none;
 }
 #workspaces button:hover {
@@ -61,8 +62,8 @@ tooltip label {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
   margin: 2px;
-  padding: 0 6px;
-}
+  padding-right: 2px;
+  padding-left: 2px;}
 
 /* === General === */
 
@@ -84,7 +85,7 @@ tooltip label {
   opacity: 1;
   color: @module-fg;
   margin-bottom: 0;
-  padding: 0 4px;
+  padding: 0 0px;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
@@ -123,7 +124,7 @@ tooltip label {
 #custom-left1 {
   color: @workspaces;
   background: @main-bg;
-  padding-left: 2px;
+  padding-left: 0px;
 }
 #workspaces {
   background: @workspaces;
@@ -146,7 +147,7 @@ tooltip label {
 }
 #custom-cpuinfo {
   background: @cpuinfo;
-  padding-left: 1px;
+  padding-left: 0px;
   padding-right: 0;
 }
 
@@ -159,7 +160,7 @@ tooltip label {
 }
 #memory {
   background: @memory;
-  padding-left: 1px;
+  padding-left: 0px;
   padding-right: 0;
 }
 #memory.warning {
@@ -174,7 +175,7 @@ tooltip label {
 #custom-left4 {
   color: @cpu;
   background: @memory;
-  padding-left: 3px;
+  padding-left: 0px;
 }
 #custom-cpu {
   background: @cpu;
@@ -191,21 +192,20 @@ tooltip label {
   color: @distro-bg;
   background: @main-bg;
   text-shadow: -2px 0 2px rgba(0, 0, 0, 0.6);
-  padding-left: 3px;
+  padding-left: 0px;
 }
 #idle_inhibitor {
-  color: @distro-fg;
   background: @distro-bg;
   font-size: 11pt;
-  margin-right: -1px;
-  margin-bottom: -2px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   padding-right: 0;
-  padding-left: 3px;
+  padding-left: 0px;
   text-shadow: 0 0 1.5px rgba(0, 0, 0, 1);
 }
 #custom-right2 {
   color: @distro-bg;
-  background: @main-bg;
+  background: none;
 }
 
 /* == Time == */
@@ -241,8 +241,8 @@ tooltip label {
 /* == Tray == */
 
 #custom-wifi {
-  padding-left: 5px;
-  padding-right: 8px;
+  padding-left: 0px;
+  padding-right: 10px;
   background: @tray;
 }
 #custom-wifi:hover {
@@ -252,7 +252,7 @@ tooltip label {
 }
 
 #bluetooth {
-  padding-right: 5px;
+  padding-right: 8px;
   background: @tray;
 }
 #bluetooth:hover {
@@ -348,7 +348,7 @@ tooltip label {
   color: @battery;
   background: @main-bg;
   font-size: 12.2pt;
-  margin-bottom: -2px;
+  margin-bottom: 2px;
 }
 #custom-power {
   color: @main-bg;
@@ -356,9 +356,9 @@ tooltip label {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 1px 0 2px 1px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  margin: 2px 4px 2px 0;
-  padding-right: 6px;
-  padding-left: 9px;
+  margin: 1px 4px 2px 0;
+  padding-right: 4px;
+  padding-left: 7px;
 }
 #custom-power:hover {
   color: @hover-fg;
